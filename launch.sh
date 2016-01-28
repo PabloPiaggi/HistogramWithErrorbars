@@ -1,0 +1,21 @@
+python script.py \
+ -tempkbt 0.741 \
+ -colvar COLVAR2.crop \
+ -numberOfFiles 2 \
+ -maxColvarSize 3000000 \
+ -rewcol 3 \
+ -biascol 4 \
+ -min 0. \
+ -max 140. \
+ -step 1.0 \
+ -outfile fes-biased.dat \
+ -outStride 400000 \
+ -ignore 400000 \
+ -readStride 500 \
+ -bootstrapSamples 1000 \
+ -significanceLevel 0.05 \
+ -weightsFlag \
+ -errorConvergence \
+ -errorConvergenceBin 50 \
+ -errorConvergenceMaxSample 2000 \
+ -errorConvergenceSampleStride 10
